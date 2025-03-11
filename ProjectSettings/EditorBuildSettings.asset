@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: 64a94d4795b4f1b4596356a71472553e
+  - enabled: 0
+    path: Assets/Scenes/Testing Scenes/GnomeWorld.unity
+    guid: 87d7123e0e8122d479cd3a20520f096a
+  - enabled: 0
+    path: Assets/Scenes/Mobile View.unity
+    guid: 2149f58dc616fd54295004497a1d5bee
+  - enabled: 1
+    path: Assets/Scenes/GnomeWorldMultiplayer.unity
+    guid: 7135d3e41eb82c94986ce722f6224bee
+  - enabled: 0
+    path: Assets/Scenes/VFX 2.unity
+    guid: 6fee94f8fee23cd4fb982a7844c23ff0
+  - enabled: 0
+    path: Assets/Scenes/MobileControls.unity
+    guid: 51b420d588c6d4043b0d41db6f5956c1
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: a3e531f77da0a964192e2a99e9e98f11, type: 2}
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: e33cbe673650c3345ac13b86d5208e09, type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 719ae413e30fcc5469e60eb7abe0ad01, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 5b9c27443d2484b3eba1ab03e8b55ef0, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 718947b7ad98a554b9ff5397fd6a1cfa, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 4f47b766abd5a694dbd58c001ca2de3d, type: 2}
+    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: 50c91242c435d2d4a94c926190220284, type: 2}
