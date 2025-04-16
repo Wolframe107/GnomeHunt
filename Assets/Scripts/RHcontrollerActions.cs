@@ -1,4 +1,4 @@
-using System.Collections;
+/* using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -48,7 +48,7 @@ public class RHcontrollerActions : MonoBehaviour
             Quaternion offset = Quaternion.Euler(90, 0, 0);
             spawnLaser.transform.rotation = rightHand.transform.rotation * offset;
             spawnLaser.GetComponent<HammerScript>().SetGun(gameObject);
-            spawnLaser.GetComponent<Rigidbody>().velocity = rightHand.transform.forward * hammerSpeed;
+            spawnLaser.GetComponent<Rigidbody>().linearVelocity = rightHand.transform.forward * hammerSpeed;
         }
     }
 
@@ -77,3 +77,4 @@ public class RHcontrollerActions : MonoBehaviour
         controller.SendHapticImpulse(intensity ,0.1f);
     }
 }
+ */

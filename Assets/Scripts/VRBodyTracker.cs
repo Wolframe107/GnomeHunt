@@ -1,4 +1,4 @@
-using UnityEngine;
+/* using UnityEngine;
 using Unity.XR.CoreUtils;
 
 public class VRBodyTracker : MonoBehaviour
@@ -19,4 +19,4 @@ public class VRBodyTracker : MonoBehaviour
             transform.rotation = Quaternion.Euler(0, xrOrigin.Camera.transform.eulerAngles.y, 0);
         }
     }
-}
+} */

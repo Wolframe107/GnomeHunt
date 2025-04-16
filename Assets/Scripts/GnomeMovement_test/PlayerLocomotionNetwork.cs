@@ -46,7 +46,7 @@ public class PlayerLocomotionNetwork : NetworkBehaviour
         Vector3 movementVelocity = moveDirection * movementSpeed;
         
         // Debug to check if velocity is being set
-        playerRigidbody.velocity = movementVelocity;
+        playerRigidbody.linearVelocity = movementVelocity;
     }
 
     private void RotateGnome()

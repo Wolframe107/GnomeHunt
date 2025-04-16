@@ -45,7 +45,7 @@ public class GremlinTimer : NetworkBehaviour
     {
         if (IsServer) {
             
-            Vector3 velocity = rb.velocity;
+            Vector3 velocity = rb.linearVelocity;
             //Debug.Log($"Velocity: {velocity}, Magnitude: {velocity.magnitude}");
 
             if (velocity.magnitude <= velocityThreshold)

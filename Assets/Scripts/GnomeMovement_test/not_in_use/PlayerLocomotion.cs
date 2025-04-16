@@ -26,7 +26,7 @@ public class PlayerLocomotion : MonoBehaviour
         moveDirection = moveDirection * movementSpeed;
 
         Vector3 movementVelocity = moveDirection;
-        playerRigidbody.velocity = movementVelocity;
+        playerRigidbody.linearVelocity = movementVelocity;
     }
 
     private void HandleRotation()
